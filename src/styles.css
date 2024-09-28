@@ -1,0 +1,40 @@
+body {
+    min-height: 100vh;
+}
+div {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+ul {
+    margin: 0;
+    padding-left: 20px;
+    list-style-type: disc;
+}
+.header {
+    text-align: center;
+    padding: 5% 28px 5% 28px;
+}
+.section {
+    padding: 2% 28px 2% 28px;
+}
+.title {
+    padding-left: 32px;
+}
+.entry {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+.child-left {
+    flex: 1;
+    margin: 12px;
+    padding: 12px 8px 12px 8px;
+}
+.child-right {
+    flex: 2;
+    margin: 12px;
+    padding: 12px 8px 12px 8px;
+}
+.date {
+    width: 192px;
+}

@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import ResumeHeader from './components/header.js';
+import ResumeSection from './components/section.js';
+import props from './data/resume.json';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <title>Resume</title>
+        <meta name="description" content="Resume as react components"></meta>
       </header>
+        <ResumeHeader {...props.header}/>
+        <ResumeSection {...props.education}/>
+        <ResumeSection {...props.workexperience}/>
+        <ResumeSection {...props.otherskills}/>
+        <ResumeSection {...props.volunteeractivities}/>
     </div>
   );
 }

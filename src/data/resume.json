@@ -1,0 +1,115 @@
+{
+    "header": {
+      "name": "THEODORE B. KEPLER",
+      "address": "2521 BRYANT AVE. S, MINNEAPOLIS MN, 55405",
+      "phone": "(612) 360-3662",
+      "email": "TBKEPLER@COMCAST.NET"
+    },
+    "education": {
+      "title": "EDUCATION",
+      "entries": [
+        {
+          "id": "0",
+          "subtitle": "Cornell University, Ithaca, New York",
+          "description": [
+            {
+              "id": "0",
+              "text": "Bachelor of Science, May 2019"
+            },
+            {
+              "id": "1",
+              "text": "Computer Science, College of Engineering"
+            },
+            {
+              "id": "2",
+              "text": "Dean's List, Spring 2018"
+            }
+          ]
+        }
+      ]
+    },
+    "workexperience": {
+      "title": "WORK EXPERIENCE",
+      "entries": [
+        {
+          "id": "0",
+          "date": "January 2020 - February 2022",
+          "subtitle": "Cargill, Inc., Hopkins, Minnesota",
+          "position": "Full Stack Engineer",
+          "description": [
+            {
+              "id": "0",
+              "text": "Full stack engineer on a team creating a user-interactive website where clients can manage information and purchase goods. Created new components and modified existing components in the front end."
+            }
+          ],
+          "skills": "SaaS, React.js, Node.js, TypeScript, Okta, Jest, Enzyme, SQL, PostgreSQL, Java 8 Restful API, Spring Boot, JUnit, Sonar, AEM, Git, GitHub, Jira"
+        },
+        {
+          "id": "1",
+          "date": "June 2018 - August 2018",
+          "subtitle": "DELTA Resources, Inc., Alexandria, Virginia",
+          "position": "Programmer / Developer",
+          "description": [
+            {
+              "id": "0",
+              "text": "Designed and architected the development of a UI that reads, writes, updates and deletes objects to and from an AWS S3 bucket. Was a developer on a team utilizing Scrum Agile software development framework as well as CMMI practices; team is appraised CMMI level 3."
+            }
+          ],
+          "skills": "JavaScript ES6, AWS S3, lit.dev"
+        },
+        {
+          "id": "2",
+          "date": "July 2016 - December 2016",
+          "subtitle": "Curriculum Associates, Billerica, Massachusetts",
+          "position": "Co-op Software Engineer",
+          "description": [
+            {
+              "id": "0",
+              "text": "Trained as a full stack engineer. Designed software for a service educational game, “iReady”. The team operated using the Scrum Agile software development framework. Designed React components to create new and modify existing front-end user interfaces for the “iReady” application."
+            }
+          ],
+          "skills": "React.js, Node.js, Java 6 API, SQL, Python, Jenkins, Git, GitHub, Jira"
+        }
+      ]
+    },
+    "otherskills": {
+      "title": "OTHER SKILLS",
+      "entries": [
+        {
+          "id": "0",
+          "description": [
+            {
+              "id": "0",
+              "text": "• Microsoft Word, PowerPoint, Excel, Outlook, Teams, OneNote"
+            },
+            {
+              "id": "1",
+              "text": "• VSCode, Azure DevOps, Github"
+            },
+            {
+              "id": "2",
+              "text": "• Web design, SaaS, CI/CD, Full Stack"
+            }
+          ]
+        }
+      ]
+    },
+    "volunteeractivities": {
+      "title": "VOLUNTEER ACTIVITIES",
+      "entries": [
+        {
+          "id": "0",
+          "description": [
+            {
+              "id": "0",
+              "text": "Food Service, People Serving People, Minneapolis, Minnesota"
+            },
+            {
+              "id": "1",
+              "text": "Orientation Leader, Cornell University, Ithaca, New York"
+            }
+          ]
+        }
+      ]
+    }
+  }
